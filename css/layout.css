@@ -1,0 +1,157 @@
+body {
+background: #ffba75;
+}
+
+@font-face {
+    font-family: 'SDSamliphopangche_Basic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrap {
+	position: relative;
+	overflow: hidden;
+	margin-top: 50px;
+	width: 100%;
+	max-width: 100%;
+	min-height: 100%;
+}
+.container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 20px 0 25px 0;
+	width: 100%;
+	min-width: 100%;
+}
+
+#header {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 0px;
+	height: 0px;
+	background: #ffffff;
+
+}
+
+#footer {
+	z-index: 10;
+	box-sizing: border-box;
+	width: 100%;
+	height: 60px;
+	padding: 10px 25px;
+	background: #ffffff;
+	font-weight: lighter;
+	animation: fade-in 0.3s ease-in-out 2s both;
+	opacity: 1;
+	font-family: 'SDSamliphopangche_Basic', sans-serif;
+}
+
+@media all and (min-width: 375px) {
+	#wrap {
+		margin-top: 90px;
+	}
+	.container {
+		padding: 20px 5% 35px 5%;
+		width: 98%;
+		min-width: 98%;
+		border-radius: 20px;
+	}
+	#header {
+		display: none;
+		margin: 0 10%;
+		padding: 0px 12.5px 12.5px 0px;
+		width: 80%;
+		height: 100px;
+		border-radius: 20px;
+	}
+
+	#footer {
+		margin: 40px 10% 0 10%;
+		padding: 15px 30px;
+		width: 80%;
+		height: 80px;
+		border-radius: 20px;
+	}
+}
+
+@media all and (min-width: 768px) {
+	#wrap {
+		margin-top: 115px;
+	}
+	.container {
+		padding: 20px 5% 37.5px 5%;
+		width: 80%;
+		min-width: 80%;
+		border-radius: 20px;
+	}
+	#header {
+		display: none;
+		margin: 0 10%;
+		padding: 0px 12.5px 12.5px 0px;
+		width: 80%;
+		height: 100px;
+		border-radius: 20px;
+	}
+
+	#footer {
+		margin: 40px 10% 0 10%;
+		padding: 15px 30px;
+		width: 80%;
+		height: 80px;
+		border-radius: 20px;
+	}
+}
+
+@media all and (min-width: 1024px) {
+
+	#wrap {
+		margin-top: 150px;
+	}
+	.container {
+		padding: 20px 5% 40px 5%;
+		width: 70%;
+		min-width: 70%;
+		border-radius: 30px;
+	}
+	#header {
+		display: none;
+		margin: 0 15%;
+		padding: 0px 15px 15px 0px;
+		width: 70%;
+		height: 100px;
+		border-radius: 30px;
+	}
+	#footer {
+		margin: 40px 15% 0 15%;
+		padding: 15px 30px;
+		width: 70%;
+		height: 80px;
+		border-radius: 20px;
+	}
+}
+
+@media all and (min-width: 1440px) {
+	.container {
+		padding: 20px 3.5% 50px 3.5%;
+		width: 55%;
+		min-width: 55%;
+	}
+	#header {
+		display: none;
+		margin: 0 22.5%;
+		padding: 0px 15px 15px 0px;
+		width: 55%;
+		height: 100px;
+	}
+	#footer {
+		margin: 45px 22.5% 0 22.5%;
+		padding: 25px 30px;
+		width: 55%;
+		height: 80px;
+}

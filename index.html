@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+     />
+
+		<title>건국대학교 동아리 유형 테스트</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/animation.css" />
+		<link rel="stylesheet" type="text/css" href="css/qna.css" />
+		<link rel="stylesheet" type="text/css" href="css/result.css" />
+
+		<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+      Kakao.init('6bdc7e62a09c41efe72ee28adbd2472d');
+			console.log(Kakao.isInitialized());
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJRT49RV1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-EDJRT49RV1');
+	 </script>
+
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-186953513-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'UA-186953513-1');
+   </script>
+	 <style>
+	 div { text-align: center; } /*모든 것 이미지 가운데 정렬*/
+ </style>
+
+ </head>
+	 <body>
+		 <div id="wrap">
+		 	<section id="main" class="container">
+				<div id="titleBox">
+       		<h3 class="elevatorPitch">
+						<p><h1><font face='SDSamliphopangche_Basic'>건국대학교 <br>동아리 유형 테스트</font></h1></p>
+					</h3>
+					<div>
+						<img src="./img/main.png" class="main_img" />
+					</div>
+				</div>
+				<p class="wline">
+					 <h3>동아리에 대해 모르는 건국대학교 새내기들을 위해, 총학생회 공:간에서 제작한 동아리 유형 테스트 <br> 나에게 딱 맞는 건국대학교 동아리는?</h3>
+				</p>
+		  	<div class="start-wrap">
+					<button id="start"><font face='SDSamliphopangche_Basic'>시작</font></button>
+				</div>
+    </section>
+
+			<section id="qna" class="container">
+				<div class="status-bar">
+					<div class="status"></div>
+				</div>
+				<div class="qBox"></div>
+				<div class="answerList"></div>
+			</section>
+
+			<section id="result" class="container">
+
+				<div id="score-box">
+					<p>나의 건국대학교 동아리 유형은?</p>
+					<div class="resultTitle"></div>
+				</div>
+
+				<div id="desc-box">
+					<div class="resultImage"></div>
+					</div>
+					<div class="resultDesc">
+					</div>
+
+					<button class="btn Copyr" style="margin-bottom: 0px;" onclick="location.href='all.html'"><font face = "SDSamliphopangche_Basic">전체 동아리 보러가기</font></button>
+					<div id="copyright" style="display: none;">
+					</div>
+
+				</section>
+	</div>
+	<script src="js/data.js"></script>
+	<script src="js/start.js"></script>
+	<script src="js/end.js"></script>
+	<script src="js/share.js"></script>
+	</body>
+</html>
