@@ -41,7 +41,7 @@
 	padding: 20px;
 	width: 10%;
 	border-radius: 20px;
-	background-color: white;
+	background-color: #fcfcfc;
 }
 
 .q {
@@ -67,6 +67,7 @@
 	font-family: 'SDSamliphopangche_Basic', sans-serif;
 	color: #434040;
 	text-align: left;
+	background-color: #fcfcfc;
 	transition: background-color, color 0.2s linear;
 	cursor: pointer;
 	border-radius: 20px;
